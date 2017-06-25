@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "module": "es2015",
+    "baseUrl": ""
+  },
+  "angularCompilerOptions": {
+    "genDir": "ngfactory",
+    "entryModule": "./server.module#ServerAppModule"
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts",
+    "./main.ts",
+    "./browser.module.ts"
+  ]
+}
