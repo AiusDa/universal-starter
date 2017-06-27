@@ -1,6 +1,10 @@
 # Universal Starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
+This project created to show hot to setup SSR (server side rendering) for Angular applications.
+In this project used following features:
+- [@ngx-utils/express-engine](https://github.com/ngx-utils/express-engine) - as engine for rendering Angular apps;
+- [@ngx-utils/cache](https://github.com/ngx-utils/cache) - for transfer cahed data from server to client side;
+- [@ngx-utils/cookies](https://github.com/ngx-utils/cookies) - cookie service that manage cookies on client and server side as well.
 
 ## Production server
 
