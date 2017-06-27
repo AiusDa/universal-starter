@@ -2,9 +2,9 @@
 
 This project created to show hot to setup SSR (server side rendering) for Angular applications.
 In this project used following features:
-- [@ngx-utils/express-engine](https://github.com/ngx-utils/express-engine) - as engine for rendering Angular apps;
-- [@ngx-utils/cache](https://github.com/ngx-utils/cache) - for transfer cahed data from server to client side;
-- [@ngx-utils/cookies](https://github.com/ngx-utils/cookies) - cookie service that manage cookies on client and server side as well.
+- [@ngx-utils/express-engine](https://github.com/ngx-utils/express-engine) - as engine for rendering Angular apps ([server.ts](https://github.com/ngx-utils/universal-starter/blob/master/src/server.ts#L20));
+- [@ngx-utils/cache](https://github.com/ngx-utils/cache) - for transfer cahed data from server to client side ([auth-http.service.ts](https://github.com/ngx-utils/universal-starter/blob/master/src/app/auth-http.service.ts#L19));
+- [@ngx-utils/cookies](https://github.com/ngx-utils/cookies) - cookie service that manage cookies on client and server side as well ([auth-http.service.ts](https://github.com/ngx-utils/universal-starter/blob/master/src/app/auth-http.service.ts#L68)).
 
 ## Production server
 
